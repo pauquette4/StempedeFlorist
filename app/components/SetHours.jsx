@@ -1,5 +1,4 @@
 import React from 'react';
-import Schedule from './Schedule';
 import { connect } from 'react-redux';
 
 @connect((store) => {
@@ -89,7 +88,8 @@ export default class SetHours extends React.Component {
     return(
       <div className="well">
         <form>
-          Form Here
+          <h1>Form Will Be Here</h1>
+          {timeSelectors}
         </form>
       </div>
     );

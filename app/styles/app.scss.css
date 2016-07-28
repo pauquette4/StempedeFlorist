@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+}
+
+.page-wrapper {
+  text-align: center;
+  background-image: src(./images/stempedeBG);
+  background-image:  cover;
+}
+
+.wrapper {
+  text-align: center;
+}
